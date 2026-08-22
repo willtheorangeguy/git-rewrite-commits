@@ -1,0 +1,25 @@
+# Documentation configuration for git-rewrite-commits.
+
+INHERIT: .mkdocs-shared/shared/mkdocs.base.yml
+
+site_name: '$ npx git-rewrite-commits'
+site_description: 'AI-powered git commit message rewriter using GPT'
+site_author: willtheorangeguy
+site_url: https://williamvdg.me/git-rewrite-commits/docs/
+
+repo_url: https://github.com/willtheorangeguy/git-rewrite-commits
+repo_name: willtheorangeguy/git-rewrite-commits
+edit_uri: edit/master/docs/
+
+copyright: Copyright &copy; willtheorangeguy
+
+nav:
+  - Home: index.md
+  - 'Quick Start Guide': 'quickstart.md'
+  - License: license.md
+  - Contributing: https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md
+  - Code of Conduct: https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md
+  - Security: https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md
+
+exclude_docs: |
+  docs.instructions.md
